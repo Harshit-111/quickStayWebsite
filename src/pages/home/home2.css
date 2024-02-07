@@ -1,0 +1,93 @@
+
+.colorText{
+    color: #A00500;
+}
+.referFriends{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.referFriendsimg{
+    background-color: #FFDE17;
+    width: 30%;
+    height: 300px;
+    position: relative;
+}
+.referFriendsimg>img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 55px;
+}
+.referFreindstext{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 1rem;
+}
+.referFriendsHeading{
+    font-size: 1.5rem !important;
+    font-weight: bold;
+}
+.referFreindstext>div{
+    word-wrap: break-word;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+/* whatsapp */
+.whatsappSteps{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.steps{
+    display: flex;
+    gap: 0rem;
+    justify-content: space-evenly;
+    
+}
+.whatsappimgs{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whatsappimgs>div{
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.partners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.partners>span{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+
+}
+.line{
+    height: 5px;
+    background-color: #FFDE17;
+}
+.partnersLogo{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    
+}
