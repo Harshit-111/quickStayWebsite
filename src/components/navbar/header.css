@@ -1,0 +1,13 @@
+.navbar {
+    background-image: linear-gradient(to right,#d7b2b2,#A00600);
+  }
+
+.headerlink{
+    display: flex;
+    align-items: center;
+    gap: -50px;
+    
+}
+.navbar-nav {
+    color: white;
+  }
