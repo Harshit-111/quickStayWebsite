@@ -1,0 +1,29 @@
+.Headerheadings2{
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 8px;
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+   
+.Remainingheader{
+    padding-top: 10vh;
+    background-color: #A00600;
+    height: 60vh;
+    position: relative;
+
+}
+.headerperson{
+    position: absolute;
+    top: -25px;
+    right: 20px;
+   
+   margin-right: 100px;
+    width: 600px;
+    height: 600px;
+}
+.Headerheadings{
+    color:white;
+}
