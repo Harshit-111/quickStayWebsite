@@ -1,0 +1,17 @@
+.aboveFooterHeading{
+display: flex;
+justify-content: space-between;
+padding-left: 3rem ;
+padding-right: 3rem;
+align-items: center;
+color: #389BC8;
+box-shadow: rgba(0, 0, 0, 0.8) 0px 25px 20px -20px;
+}
+
+.aboveFooterBody{
+    gap: 3rem;
+    transition: all ease-in 1s;
+}
+p{
+    margin: 0.1em;
+}

@@ -1,0 +1,8 @@
+.footer{
+    background-color: #282828;
+    color: white;
+}
+.footer_icons{
+    display: flex;
+    gap: 1rem;
+}
