@@ -5,6 +5,10 @@ import Header from "../../components/navbar/Header";
 import BelowHeader from "../../components/navbar/BelowHeader";
 import "./home.css";
 import "./home2.css";
+import BlogCard from "../../components/blogCard/BlogCard";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { TfiYoutube } from "react-icons/tfi";
 
 const Home = () => {
   return (
@@ -59,6 +63,69 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="toApp">
+        <div className="toAppText">
+          <p className="toAppTextHeading">
+            We are always at your <br />
+            fingertips!
+          </p>
+          <p className="toAppTextBody">
+            Embark on an exciting coliving adventure with QuickStay! From
+            finding your perfect fully-furnished stay to effortless booking,
+            seamless daily management, and stress-free move-out – our
+            comprehensive services are designed for a convenient and comfortable
+            long-term rental stay. Discover your ideal home in the new city with
+            QuickStay – your trusted renting partner in Gurugram!
+          </p>
+          <div className="PlayAppStore">
+            <img src="./images/playstore.png" alt="" />
+            <img src="./images/appstore.png" alt="" />
+          </div>
+        </div>
+        <div className="toAppImg">
+          <img src="./images/toApp.png" alt="toAppPng" />
+        </div>
+      </div>
+      <div className="socialMediaHandles container">
+        <div className="socialMediaLogos">
+          <div className="socialMediaLogoBg">
+            <FaFacebookF size="2.5em" />
+          </div>
+          <div className="socialMediaLogoBg">
+            <FaXTwitter size="2.5em" />
+          </div>
+          <div className="socialMediaLogoBg">
+            <FaInstagram size="2.5em" />
+          </div>
+          <div className="socialMediaLogoBg">
+            <TfiYoutube size="2.5em" />
+          </div>
+          <div className="socialMediaLogoBg">
+            <FaLinkedinIn size="2.5em" />
+          </div>
+        </div>
+        <div className="socialMediaText">
+          We’re <span className="colorText">Social!</span>
+          <br />
+          LIKE. FOLLOW. SHARE
+        </div>
+      </div>
+      <div className="blogSection">
+        <p className="blogSectionHeading">
+          The <span className="colorText underlineYellow">QuickStay</span> Blog
+        </p>
+        <p>
+          Stranger to the new city? Don’t worry! From finding the best coliving
+          room in Gurugram to the best morning chai, we will help you!
+        </p>
+        <div className="blogCards container">
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+        </div>
+        <div className="ToBlogsButton">READ ALL BLOGS</div>
+      </div>
       <div className="referFriends d-flex">
         <div className="referFriendsimg">
           <img src="./images/referFriends.png" alt="" />
@@ -93,7 +160,7 @@ const Home = () => {
       <div className="whatsappSteps ">
         <h4>
           Book your new stay in
-          <span className="colorText"> 5 easy steps </span>
+          <span className="colorText underlineYellow"> 5 easy steps </span>
           through WhatsApp!
         </h4>
         <div className="steps container">

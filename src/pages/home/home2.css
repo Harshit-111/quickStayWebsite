@@ -1,25 +1,135 @@
 
-.colorText{
-    color: #A00500;
+/* to .toApp */
+.toApp{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
+.toAppText{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+    gap: 1rem;
+}
+.toAppTextHeading{
+font-size: 2rem;
+font-weight: 600;
+}
+.toAppTextBody{
+    width: 54%;
+  word-wrap: break-word;
+  font-size: 0.9rem;
+}
+
+.PlayAppStore{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toAppImg{
+    width: 45%;
+}
+
+/* social media handles */
+.socialMediaHandles{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.socialMediaLogos{
+    display: flex;
+    width: 55%;
+    gap: 2rem;
+}
+.socialMediaLogoBg{
+    background-color: #FFDE17;
+    width: 12%;
+    height: 5.5vw;
+    border-radius: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialMediaText{
+    width: 45%;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* BLOG SECTION */
+.underlineYellow{
+    position: relative;
+}
+.underlineYellow::after{
+    content: "";
+    position: absolute;
+    background-color: #FFDE17;
+    height: 5px;
+    width: 130%;
+    bottom: -1rem;
+    left: -15%;
+
+
+}
+.blogSection{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+  margin-bottom: 20vh;
+
+}
+.blogSectionHeading{
+    font-size: 1.7rem;
+  font-weight: 520;
+}
+
+.blogCards{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.ToBlogsButton{
+    background-color: #A00500;
+  color: white;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Refer friends section */
 .referFriends{
     display: flex;
     margin-top: 5vh;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     
 }
 .referFriendsimg{
     background-color: #FFDE17;
     width: 30%;
-    height: 300px;
+    height: 285px;
     position: relative;
+    border-top-right-radius: 20px;
 }
 .referFriendsimg>img{
-    width: 100%;
+    width: 90%;
     position: absolute;
     bottom: 0;
-    right: 55px;
+    right: 100px;
 }
 .referFreindstext{
     display: flex;
