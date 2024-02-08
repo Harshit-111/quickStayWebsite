@@ -4,25 +4,22 @@
     justify-content: space-around;
     gap:2rem;
     margin-top: 20vh;
+    margin-left: 125px;
 }
 .Regiontext{
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-
-
 }
 .text{
     margin-top: 20px;
 }
-.Region{
-    
+.Region{   
     display: flex;
     gap: 30px;
 }
 .regionphotos{
     position: relative;
-
 }
 
 .regionphotos>span{position: absolute; bottom: 20px; left:50px; color:white; font-weight: bold;}
@@ -35,6 +32,103 @@ align-items: flex-start;
     column-gap: 20px;
     row-gap: 10px;
     font-size: 0.8rem;
+    font-weight: bold;  
+}
+.advanatages{
+   margin-top: 20vh;
+   margin-left: 200px;
+}
+.advantagestext{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.advantagespara{
+    margin-top: 20px;
+}
+.advanatagespoints2{
+    list-style: none;
     font-weight: bold;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 100px;
+    margin-top: 40px;
+    margin-left: -30px;   
+}
+
+.advantagesphotos{
+    background-color: #FFDE17;
+    border-top-left-radius: 20px;
+    position: relative;
+    height: 300px;
+}
+.quickstaypromise{
+    margin-top: 20vh;
+    margin-left: 200px;
+}
+.promiseimages{
+    position: relative;
    
 }
+.promisetext{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    
+}
+.promisepara{
+    margin-top: 20px;
+}
+.promisemark{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.importanceofquickstay{
+    margin-top: 20vh;
+    margin-left: 200px;
+}
+.importancepara{
+    margin-top: 20px;
+}
+.importancemark{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.importanceicon{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-right: 5vw;
+    
+}
+.importanceiconlist{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    font-size: small;
+    column-gap: 50px;
+    row-gap: 40px;
+    text-align: center;
+   
+}
+.importanceiconlist>li{display: flex; flex-direction: column; align-items: center;  }
+
+.findstay{
+    margin-top: 20vh;
+    margin-left: 200px;
+}
+.findstayimage{
+    background-color: #FFDE17;
+    border-top-right-radius: 20px;
+   width: 40%;
+   height: 350px;
+}
+.finstaytext{
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+}
+.findstaypara{
+    margin-top: 20px;
+}
+

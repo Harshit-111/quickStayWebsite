@@ -20,7 +20,7 @@ const BelowHeader = () => {
         <IoIosArrowDropright  size='2em'/>
        </div>
      </div>
-      <img className='headerperson' src='./headerphoto.png'></img>
+      <img className='headerperson' src='./headerphoto.png' alt=" "></img>
     </div>
   )
 }
