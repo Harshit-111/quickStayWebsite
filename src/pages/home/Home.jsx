@@ -5,6 +5,17 @@ import Header from "../../components/navbar/Header";
 import BelowHeader from "../../components/navbar/BelowHeader";
 import "./home.css";
 import "./home2.css";
+import { GiSofa } from "react-icons/gi";
+import { IoWifi } from "react-icons/io5";
+import { PiOfficeChairFill } from "react-icons/pi";
+import { MdHeadsetMic } from "react-icons/md";
+import { HiMiniUserGroup } from "react-icons/hi2";
+import { ImBin2 } from "react-icons/im";
+import { FaMobileRetro } from "react-icons/fa6";
+import { BiSolidCctv } from "react-icons/bi";
+import { RiSmartphoneFill } from "react-icons/ri";
+import { BsSuitcaseFill } from "react-icons/bs";
+import { IconContext } from "react-icons";
 
 const Home = () => {
   return (
@@ -29,7 +40,7 @@ const Home = () => {
         <div className="Regiontext">
           <h3>
             Experience Coliving in
-            <span style={{ color: "red" }}> Delhi-NCR!</span>
+            <span style={{ color: "#A00500" }}> Delhi-NCR!</span>
           </h3>
 
           <p className="text">
@@ -56,6 +67,170 @@ const Home = () => {
               Community<br></br> Living
             </li>
           </ul>
+        </div>
+      </div>
+
+      <div className="advanatages d-flex container">
+        <div className="advantagestext" style={{ marginRight: "100px" }}>
+          <div className="adavantagesheading">
+            <h3>
+              {" "}
+              Comfortable Coliving for{" "}
+              <span style={{ color: "#A00500" }}>Everyone!</span>
+            </h3>
+          </div>
+          <div className="advantagespara">
+            <p>
+              Embark on a new coloving journey, where you're not just<br></br>
+              residents - you're a community of friends!<br></br>
+              Be comfortable in your own space or bring yourself a<br></br>
+              roomate, the choice is totally yours!
+            </p>
+          </div>
+          <div className="advanatgespoint">
+            <ul className="advanatagespoints2">
+              <li>
+                Working<br></br>Professionals
+              </li>
+              <li>
+                Budding<br></br>Entrepreneurs
+              </li>
+              <li>
+                Creative<br></br>Opportunists
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="advantagesphotos">
+          <img src="./Quickstay1.png" alt=" "></img>
+        </div>
+      </div>
+
+      <div className="quickstaypromise d-flex container">
+        <div className="promiseimages">
+          <img
+            src="./images/promise1.png"
+            alt=" "
+            style={{ marginRight: "30px" }}
+          ></img>
+          <img
+            src="./images/promise2.png"
+            alt=" "
+            style={{ marginRight: "30px" }}
+          ></img>
+          <img src="./images/promise3.png" alt=" "></img>
+        </div>
+        <div className="promisetext">
+          <div className="promiseheading">
+            <h3>
+              <span style={{ color: "#A00500" }}>QuickStay </span>Promise.
+            </h3>
+          </div>
+          <div className="promisepara">
+            <p>
+              We thrive to provide the best coliving stay for rent to every
+              <br></br>
+              customer.Be it a private room or sharing room with your<br></br>
+              roomate, we manage to provide the best available option<br></br>
+              for you!
+            </p>
+          </div>
+          <div>
+            <p className="promisemark">Keep renting with us!</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="importanceofquickstay d-flex container">
+        <div className="importancetext">
+          <div className="importanceheading">
+            <h3>
+              Why Stay at <span style={{ color: "#A00500" }}>QuickStay?</span>
+            </h3>
+          </div>
+          <div className="importancepara">
+            <p>
+              We want to help you simplify your life and cut out the<br></br>
+              unecessary headache of finding the perfect rental stay.<br></br>
+              Rent QuickStay Coliving in Gurugram & experience the<br></br>
+              best!
+            </p>
+          </div>
+          <div className="importancemark">Rental living made easy!</div>
+        </div>
+
+        <div className="importanceicon">
+          <IconContext.Provider value={{ size: "3em" }}>
+            <ul className="importanceiconlist">
+              <li>
+                <GiSofa style={{ color: "#A00500" }}/>
+                Full Furnished<br></br>stays
+              </li>
+              <li>
+                <IoWifi style={{ color: "#A00500" }}/>
+                High Speed<br></br>Wi-Fi
+              </li>
+              <li>
+                <PiOfficeChairFill style={{ color: "#A00500" }} />
+                Near to<br></br>offices
+              </li>
+              <li>
+                <MdHeadsetMic style={{ color: "#A00500" }} />
+                Dedicated customer <br></br>support
+              </li>
+              <li>
+                <HiMiniUserGroup style={{ color: "#A00500" }} />
+                Like minded<br></br> community
+              </li>
+              <li>
+                <ImBin2 style={{ color: "#A00500" }}/>
+                Free room<br></br> cleaning
+              </li>
+              <li>
+                <FaMobileRetro style={{ color: "#A00500" }} />
+                App managed<br></br> stays
+              </li>
+              <li>
+                <BiSolidCctv style={{ color: "#A00500" }} />
+                24*7 safety &<br></br> security
+              </li>
+              <li>
+                <RiSmartphoneFill style={{ color: "#A00500" }} />
+                Smart<br></br> amenities
+              </li>
+              <li>
+                <BsSuitcaseFill style={{ color: "#A00500" }} />
+                Ready to<br></br> move-in
+              </li>
+            </ul>
+          </IconContext.Provider>
+        </div>
+      </div>
+
+      <div className="findstay d-flex container">
+        <div className="findstayimage">
+          <img src="./images/Quickstay2.png" alt=" "></img>
+        </div>
+        <div className="finstaytext">
+          <div className="findstayheading">
+            <h3>
+              Find your favourite{" "}
+              <span style={{ color: "#A00500" }}>
+                coliving stay in<br></br>Gurugram!
+              </span>
+            </h3>
+          </div>
+          <div className="findstaypara">
+            <p>
+              A new city might feel too new to roam around and look for a decent
+              <br></br>
+              rental stay, is'nt it?<br></br>Discover stress- free living in
+              Gurugram with QuickStay! Let us<br></br> handle your comfottable
+              stay, making you hassle-free. Find<br></br> the best coliving
+              stays for a welcoming and convenient experience.<br></br> Your
+              home in Gurugram is just a click away!
+            </p>
+          </div>
         </div>
       </div>
 
