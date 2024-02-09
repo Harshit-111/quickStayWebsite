@@ -20,6 +20,7 @@ import BlogCard from "../../components/blogCard/BlogCard";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { TfiYoutube } from "react-icons/tfi";
+import Properties from "../../components/properties/Properties";
 
 const Home = () => {
   return (
@@ -111,6 +112,34 @@ const Home = () => {
           <img src="./Quickstay1.png" alt=" "></img>
         </div>
       </div>
+      <div className="propertiesoverview container">
+      
+        <div className="propertyheading">
+          <h3>
+            Explore<span className="underlineyellow" style={{ color: "#A00500" }} > QuickStay Coliving</span>{" "}
+            in Gurugram!
+          </h3>
+        </div>
+        
+        <div className="propertypara">
+          <p>
+            Enjoy zero brokerage fully furnished stays, dedicated customer
+            support, and much more,<br></br> making your move-in as easy as
+            unlockind the door. We only care about yoyr comfort & convenience!
+          </p>
+        </div>
+     
+      <div className="propertiescard ">
+        <Properties />
+        <Properties />
+        <Properties />
+        <Properties />
+      </div>
+      <div className="allproperties">
+        <button>SEE ALL PROPERTIES</button>
+      </div>
+      </div>
+      
 
       <div className="quickstaypromise d-flex container">
         <div className="promiseimages">

@@ -63,6 +63,50 @@ align-items: flex-start;
     position: relative;
     height: 300px;
 }
+.propertiesoverview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20vh;
+}
+
+.underlineyellow{
+    position: relative;
+}
+.underlineyellow::after{
+    content: "";
+    position: absolute;
+    background-color: #FFDE17;
+    height: 5px;
+    width: 75%;
+    bottom: -1rem;
+    left: 30%;
+    border-radius: 1rem;
+
+
+
+}
+.propertypara{
+    text-align: center;
+}
+
+.propertiescard{
+    display: flex;
+    gap: 2rem;
+    
+}
+.allproperties>button{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    font-weight: bold;
+    color:white;
+    background-image: linear-gradient(to top right,#2d0604,#A00600);
+    border: none;
+    border-radius: 10px;
+}
 .quickstaypromise{
     margin-top: 20vh;
     margin-left: 200px;
@@ -112,7 +156,7 @@ align-items: flex-start;
     text-align: center;
    
 }
-.importanceiconlist>li{display: flex; flex-direction: column; align-items: center;  }
+.importanceiconlist>li{display: flex; flex-direction: column; align-items: center;}
 
 .findstay{
     margin-top: 20vh;
