@@ -1,4 +1,10 @@
+.homeHeader{
+    padding-top: 1lvh ;
+    padding-bottom: 2lvh;
+    background-image: linear-gradient(to top right,#2d0604,#A00600),linear-gradient(to bottom right,#2d0604,#A00600);
+    /* background-image: linear-gradient(to top right,#2d0604,#A00600); */
 
+}
 /* to .toApp */
 .toApp{
     display: flex;
@@ -74,6 +80,7 @@ font-weight: 600;
     width: 130%;
     bottom: -1rem;
     left: -15%;
+    border-radius: 10px;
 
 
 }

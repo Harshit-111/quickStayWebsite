@@ -1,11 +1,15 @@
 .blogCard{
     width: 20%;
     position: relative;
+    background: url("../../../public/images/blogCardBg.png"),linear-gradient(to top,rgba(0,0,0,.8),rgba(0,0,0,0));
+    background-blend-mode: multiply;
+    height: 50lvh;
+    
 }
-.blogCard>img{
+/* .blogCard>img{
     width: 100%;
     z-index: 1;
-}
+} */
 .blogCardText{
     
     position: absolute;

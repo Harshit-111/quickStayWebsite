@@ -1,19 +1,29 @@
 .Headerheadings2{
     background-color: yellow;
     border-radius: 20px;
-    padding: 8px;
+    
     width: 25vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 2rem;
     align-items: center;
+    font-size: 0.9rem;
+    padding: 3px;
+    font-weight: 600;
 }
    
 .Remainingheader{
     padding-top: 10vh;
-    background-color: #A00600;
+    /* background-color: #A00600; */
     height: 60vh;
     position: relative;
 
+}
+.remainingHeaderText{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: flex-start;
 }
 .headerperson{
     position: absolute;

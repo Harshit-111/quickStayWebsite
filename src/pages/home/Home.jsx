@@ -24,8 +24,10 @@ import { TfiYoutube } from "react-icons/tfi";
 const Home = () => {
   return (
     <div>
-      <Header />
-      <BelowHeader />
+      <section className="homeHeader">
+        <Header />
+        <BelowHeader />
+      </section>
       <div className="regionparent container">
         <div className="Region">
           <div className="regionphotos">

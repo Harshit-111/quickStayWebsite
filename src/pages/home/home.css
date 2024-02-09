@@ -33,6 +33,7 @@ align-items: flex-start;
     row-gap: 10px;
     font-size: 0.8rem;
     font-weight: bold;  
+    padding: 0;
 }
 .advanatages{
    margin-top: 20vh;
