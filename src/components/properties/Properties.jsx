@@ -2,7 +2,7 @@ import React from "react";
 import "./property.css";
 const Properties = () => {
   return (
-    <div className="PropertyCard" style={{ width: "20rem" }}>
+    <div className="PropertyCard" style={{ width: "18rem" }}>
       <img
         className="propertyimage"
         src="./images/properties.png"

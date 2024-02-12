@@ -1,15 +1,21 @@
+.aboveFooterHeadingContainer{
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 25px 20px -20px;
+}
 .aboveFooterHeading{
 display: flex;
 justify-content: space-between;
-padding-left: 3rem ;
-padding-right: 3rem;
+
 align-items: center;
 color: #389BC8;
-box-shadow: rgba(0, 0, 0, 0.8) 0px 25px 20px -20px;
+
 }
 
 .aboveFooterBody{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     gap: 3rem;
+    display: flex;
+    justify-content: flex-start;
     transition: all ease-in 1s;
 }
 p{

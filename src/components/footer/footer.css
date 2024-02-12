@@ -1,9 +1,39 @@
-.footer{
+.myContainer{
+    max-width: 85vw;
+    margin-inline: auto;
+}
+.myContainerParent{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+footer{
     background-color: #282828;
     color: white;
     margin-bottom: 0;
 }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerLinks{
+display: flex;
+justify-content: space-between;
+gap: 3rem;
+}
+.footerLinksList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+.footerContactsList>:nth-child(3){
+    margin-top: 2rem;
+}
+
 .footer_icons{
     display: flex;
+    margin-top: 1rem;
     gap: 1rem;
 }

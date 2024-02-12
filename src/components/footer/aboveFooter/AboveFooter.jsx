@@ -6,15 +6,17 @@ const AboveFooter = () => {
   const [showDrop, setShowDrop] = useState(true);
   return (
     <div className="aboveFooter">
-      <div
-        className="aboveFooterHeading mb-2"
-        onClick={() => setShowDrop(!showDrop)}
-      >
-        <h3>Find us in Gurugram!</h3>
-        <FaChevronDown size="2em" />
+      <div className="aboveFooterHeadingContainer">
+        <div
+          className="aboveFooterHeading myContainer"
+          onClick={() => setShowDrop(!showDrop)}
+        >
+          <h3>Find us in Gurugram!</h3>
+          <FaChevronDown size="2em" />
+        </div>
       </div>
       {showDrop && (
-        <div className="aboveFooterBody container d-flex justify-content-start">
+        <div className="aboveFooterBody myContainer">
           <div>
             <p>PG in Gurgaon</p>
             <p>PG for boys in Gurgaon</p>
