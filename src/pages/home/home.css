@@ -68,6 +68,11 @@
   border-top-left-radius: 20px;
   position: relative;
   height: 300px;
+  width: 44.55%;
+}
+.advantagesphotos > img {
+  position: absolute;
+  bottom: 0;
 }
 
 /* SECTION QUICKSTAY PROPERTIES */
