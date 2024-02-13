@@ -28,6 +28,13 @@
   color: white;
   font-weight: bold;
 }
+.regionphotos>span1{
+    position: absolute;
+    bottom: 20px;
+    left: 38px;
+    color: white;
+    font-weight: bold;
+}
 .regionphotos > img {
   width: 150px;
 }

@@ -34,7 +34,7 @@ const Home = () => {
           <div className="Region">
             <div className="regionphotos">
               <img className="Gurugram" src="./gurugram.png" alt=""></img>
-              <span>Gurugram</span>
+              <span1>Gurugram</span1>
             </div>
             <div className="regionphotos">
               <img className="Delhi" src="./delhi.png" alt=" "></img>
