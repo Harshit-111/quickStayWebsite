@@ -1,39 +1,96 @@
-.myContainer{
-    max-width: 85vw;
-    margin-inline: auto;
+.myContainer {
+  max-width: 85vw;
+  margin-inline: auto;
 }
-.myContainerParent{
-    padding-top: 4%;
-    padding-bottom: 4%;
+.myContainerParent {
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
-footer{
-    background-color: #282828;
-    color: white;
-    margin-bottom: 0;
+footer {
+  background-color: #282828;
+  color: white;
+  margin-bottom: 0;
+  font-size: 1rem;
 }
-.footer{
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 8rem;
+}
+.footerLinks {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.footerLinksList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+.footerLink {
+  text-decoration: none;
+  color: white;
+}
+.footerContactsList > :nth-child(3) {
+  margin-top: 2rem;
+}
+
+.footer_icons {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+  footer {
+    font-size: 0.8rem;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  .logo {
+    width: 5rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  footer {
+    font-size: 0.8rem;
+  }
+  .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.footerLinks{
-display: flex;
-justify-content: space-between;
-gap: 3rem;
-}
-.footerLinksList{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 0.5rem;
-}
-.footerContactsList>:nth-child(3){
-    margin-top: 2rem;
+    flex-direction: row;
+  }
+  .logo {
+    width: 6rem;
+  }
 }
 
-.footer_icons{
-    display: flex;
-    margin-top: 1rem;
-    gap: 1rem;
+@media only screen and (min-width: 992px) {
+  footer {
+    font-size: 1rem;
+  }
+  .logo {
+    width: 8rem;
+  }
 }

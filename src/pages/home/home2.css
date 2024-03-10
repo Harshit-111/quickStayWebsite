@@ -133,37 +133,33 @@ ul {
 /* Refer friends section */
 .referFriends {
   display: flex;
-  gap: 11rem;
-  justify-content: flex-end;
+
+  justify-content: space-between;
   align-items: center;
 }
 .referFriendsimg {
-  background-color: #ffde17;
-  width: 40%;
-  height: 21rem;
-  position: relative;
-  border-top-right-radius: 20px;
+  width: 50%;
+  display: flex;
+  align-items: center;
 }
 .referFriendsimg > img {
-  width: 90%;
-  position: absolute;
-  bottom: 0;
-  left: -11%;
+  width: 100%;
 }
 .referFreindstext {
   display: flex;
   flex-direction: column;
   width: 40%;
   gap: 1rem;
+  font-size: 1rem;
 }
 .referFriendsHeading {
-  font-size: 1.75rem !important;
-  font-weight: bold;
+  font-size: 2rem !important;
+  font-weight: bolder;
 }
 .referFreindstext > div {
   word-wrap: break-word;
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -174,10 +170,14 @@ ul {
   align-items: center;
   gap: 2rem;
 }
+.whatsappHeading {
+  font-size: 2rem;
+  font-weight: bolder;
+}
 
 .steps {
   display: flex;
-  gap: 0rem;
+
   justify-content: space-between;
   width: 100%;
 }
@@ -220,7 +220,104 @@ ul {
 .partnersLogo {
   display: flex;
   width: 100%;
-  gap: 3rem;
+  gap: 1rem;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+.partnersLogo > img {
+  width: 8rem;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1200px) {
+  .referFriendsHeading {
+    font-size: 1.5rem !important;
+    font-weight: bolder;
+  }
+  .referFreindstext > div {
+    word-wrap: break-word;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .myContainerParent {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .referFreindstext {
+    font-size: 1rem;
+  }
+  .referFriendsHeading {
+    font-size: 1.5rem !important;
+    font-weight: bolder;
+  }
+  .referFreindstext > div {
+    word-wrap: break-word;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .whatsappimgs > div {
+    font-size: 0.7rem;
+  }
+  .whatsappHeading {
+    font-size: 1.8rem;
+  }
+  .partnersLogo > img {
+    width: 6rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .myContainerParent {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .referFriendsHeading {
+    font-size: 1.2rem !important;
+    font-weight: 900;
+  }
+  .referFreindstext > div {
+    word-wrap: break-word;
+    text-align: left;
+    font-size: 0.6rem;
+    font-weight: 500;
+  }
+  .whatsappHeading {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  .partnersLogo > img {
+    width: 5.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .myContainerParent {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .referFriends {
+    flex-direction: column-reverse;
+  }
+  .referFriends > div {
+    width: 80%;
+  }
+  .referFriendsHeading {
+    font-size: 1rem !important;
+    font-weight: 900;
+  }
+  .referFreindstext > div {
+    word-wrap: break-word;
+    text-align: left;
+    font-size: 0.4rem;
+    font-weight: 500;
+  }
+  .whatsappimgs > div {
+    font-size: 0.33rem;
+  }
+  .partnersLogo > img {
+    width: 4rem;
+  }
 }

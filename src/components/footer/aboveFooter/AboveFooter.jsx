@@ -11,7 +11,7 @@ const AboveFooter = () => {
           className="aboveFooterHeading myContainer"
           onClick={() => setShowDrop(!showDrop)}
         >
-          <h3>Find us in Gurugram!</h3>
+          <p>Find us in Gurugram!</p>
           <FaChevronDown size="2em" />
         </div>
       </div>

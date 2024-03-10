@@ -17,59 +17,59 @@ const Footer = () => {
     <footer className="myContainerParent">
       <div className="footer myContainer">
         <div className="footer_logo">
-          <img src="./images/QS_logo.png" alt="logo" />
+          <img src="./images/QS_logo.png" alt="logo" className="logo" />
         </div>
         <div className="footerLinks fontRegular">
           <ul className="footerLinksList">
             <li className="">
-              <Link to="/" className="nav-link p-0 text-white">
+              <Link to="/" className="footerLink">
                 Home
               </Link>
             </li>
             <li className="">
-              <Link to="/" className="nav-link p-0 text-white">
+              <Link to="/" className="footerLink">
                 About
               </Link>
             </li>
             <li className="">
-              <Link to="/" className="nav-link p-0 text-white">
+              <Link to="/" className="footerLink">
                 Blog
               </Link>
             </li>
             <li className="">
-              <Link to="/contact" className="nav-link p-0 text-white">
+              <Link to="/contact" className="footerLink">
                 Contact us
               </Link>
             </li>
             <li className="">
-              <Link to="/" className="nav-link p-0 text-white">
+              <Link to="/" className="footerLink">
                 Building Rules
               </Link>
             </li>
           </ul>
           <ul className="footerLinksList">
             <li className="">
-              <Link to="/" className="nav-link p-0 text-white">
+              <Link to="/" className="footerLink">
                 List your Property
               </Link>
             </li>
             <li className="">
-              <Link to="/" className="nav-link p-0  text-white">
+              <Link to="/" className="footerLink">
                 Partner with us
               </Link>
             </li>
             <li className="">
-              <Link to="/" className="nav-link p-0 text-white">
+              <Link to="/" className="footerLink">
                 Terms & Conditions
               </Link>
             </li>
             <li className="">
-              <Link to="/contact" className="nav-link p-0 text-white">
+              <Link to="/contact" className="footerLink">
                 Privacy Policy
               </Link>
             </li>
             <li className="">
-              <Link to="/" className="nav-link p-0 text-white">
+              <Link to="/" className="footerLink">
                 Refund Policy
               </Link>
             </li>

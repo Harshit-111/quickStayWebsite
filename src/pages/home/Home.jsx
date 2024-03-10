@@ -25,7 +25,7 @@ import Properties from "../../components/properties/Properties";
 const Home = () => {
   return (
     <div>
-      <section className="homeHeader">
+      {/* <section className="homeHeader">
         <Header />
         <BelowHeader />
       </section>
@@ -353,11 +353,11 @@ const Home = () => {
           </div>
           <div className="ToBlogsButton">READ ALL BLOGS</div>
         </div>
-      </section>
+      </section> */}
       <section className="referFriendsSection myContainerParent">
         <div className="referFriends myContainer">
           <div className="referFriendsimg">
-            <img src="./images/referFriends.png" alt="" />
+            <img src="./images/refer.png" alt="" />
           </div>
           <div className="referFreindstext">
             <div className="referFriendsHeading">
@@ -392,11 +392,11 @@ const Home = () => {
       </section>
       <section className="whatsAppScreens myContainerParent">
         <div className="whatsappSteps myContainer">
-          <h4>
+          <p className="whatsappHeading">
             Book your new stay in
             <span className="colorText underlineYellow"> 5 easy steps </span>
             through WhatsApp!
-          </h4>
+          </p>
           <div className="steps">
             <div className="whatsappimgs">
               <img src="./images/whatsappSS/first.png" alt="" />

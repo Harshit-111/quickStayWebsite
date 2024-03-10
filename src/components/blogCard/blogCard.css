@@ -1,35 +1,33 @@
-.blogCard{
-    width: 22%;
-    position: relative;
-    background: url("../../../public/images/blogCardBg.png"),linear-gradient(to top,rgba(0,0,0,.8),rgba(0,0,0,0));
-    background-blend-mode: multiply;
-    
-    height: 23rem;
-    
+.blogCard {
+  width: 22%;
+  position: relative;
+  background: url("../../../public/images/blogCardBg.png"),
+    linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  background-blend-mode: multiply;
+
+  height: 24rem;
 }
 
-.blogCardText{
-    
-    position: absolute;
-    color: #FFDE17;
-    bottom: 1rem;
-    left: 5%;
-    width: 90%;
-    font-weight: 600;
-    font-size: 1.1rem;
+.blogCardText {
+  position: absolute;
+  color: #ffde17;
+  bottom: 1rem;
+  left: 5%;
+  width: 90%;
+  font-weight: 600;
+  font-size: 1.1em;
 }
-.readNow{
-    display: flex;
-    align-items: center;
-    color: white;
-    font-size: 0.9rem;
+.readNow {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 0.9rem;
 }
 
-
-.blogCardLine{
-    width: 100%;
-    height: 2px;
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.blogCardLine {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
