@@ -31,3 +31,40 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 992px) {
+  .blogCard {
+    height: 18rem;
+  }
+  .blogCardText {
+    font-size: 0.8rem;
+  }
+  .readNow {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .blogCard {
+    height: 15rem;
+  }
+  .blogCardText {
+    font-size: 0.6rem;
+  }
+  .readNow {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .blogCard {
+    height: 15rem;
+    width: 45%;
+  }
+  .blogCardText {
+    font-size: 0.6rem;
+  }
+  .readNow {
+    font-size: 0.5rem;
+  }
+}

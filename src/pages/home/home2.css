@@ -61,6 +61,7 @@ ul {
 .socialMediaHandles {
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
 }
 .socialMediaLogos {
   display: flex;
@@ -82,6 +83,9 @@ ul {
   width: 45%;
   font-weight: 600;
   font-size: 2rem;
+}
+.minAlter {
+  display: none;
 }
 
 /* BLOG SECTION */
@@ -247,6 +251,34 @@ ul {
     padding-top: 5%;
     padding-bottom: 5%;
   }
+  .finstaytext {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .findstayheading {
+    font-size: 1rem;
+  }
+
+  .toAppTextHeading {
+    font-size: 1.8rem;
+  }
+  .toAppTextBody {
+    width: 70%;
+  }
+  .toAppImg > img {
+    width: 100%;
+  }
+
+  .socialMediaLogos {
+    gap: 1rem;
+  }
+  .socialMediaLogoBg {
+    width: 17%;
+    height: 8vw;
+  }
+  .socialMediaText {
+    font-size: 1.7rem;
+  }
   .referFreindstext {
     font-size: 1rem;
   }
@@ -275,6 +307,15 @@ ul {
     padding-top: 10%;
     padding-bottom: 10%;
   }
+  .findstayimage {
+    width: 100%;
+  }
+  .finstaytext {
+    font-size: 0.8rem;
+  }
+  .ToBlogsButton {
+    width: 60%;
+  }
   .referFriendsHeading {
     font-size: 1.2rem !important;
     font-weight: 900;
@@ -298,20 +339,75 @@ ul {
     padding-top: 10%;
     padding-bottom: 10%;
   }
+  .findstay {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+  }
+  .findstay > div {
+    width: 90%;
+    font-size: 0.7rem;
+  }
+  .findstayheading > h3 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .toApp {
+    flex-direction: column;
+    position: relative;
+  }
+  .toApp > div {
+    width: 80%;
+  }
+  .toAppTextHeading {
+    font-size: 1.5rem;
+  }
+  .toAppTextBody {
+    width: 95%;
+  }
+  .PlayAppStore {
+    position: absolute;
+    bottom: -7rem;
+
+    margin-bottom: 3rem;
+  }
+
+  /* SOCIAL MEDIA HANDLES */
+  .socialMediaHandles {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .socialMediaHandles > div {
+    width: 90%;
+  }
+  .socialMediaLogoBg {
+    width: 17%;
+    height: 12vw;
+  }
+
+  .socialMediaText {
+    font-size: 1.5rem;
+  }
+  /* BLOG SECTION */
+  .blogCards {
+    flex-wrap: wrap;
+  }
   .referFriends {
     flex-direction: column-reverse;
+    gap: 1rem;
   }
   .referFriends > div {
     width: 80%;
   }
   .referFriendsHeading {
-    font-size: 1rem !important;
+    font-size: 1.2rem !important;
     font-weight: 900;
   }
   .referFreindstext > div {
     word-wrap: break-word;
     text-align: left;
-    font-size: 0.4rem;
+    font-size: 0.8rem;
     font-weight: 500;
   }
   .whatsappimgs > div {

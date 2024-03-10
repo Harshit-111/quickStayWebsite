@@ -251,11 +251,11 @@ const Home = () => {
             </IconContext.Provider>
           </div>
         </div>
-      </section>
+      </section>*/}
       <section className="findStaySection myContainerParent">
         <div className="findstay  myContainer">
           <div className="findstayimage">
-            <img src="./images/Quickstay2.png" alt=" "></img>
+            <img src="./images/findStay.png" alt=" "></img>
           </div>
           <div className="finstaytext">
             <div className="findstayheading">
@@ -327,7 +327,7 @@ const Home = () => {
               <FaLinkedinIn size="50%" />
             </div>
           </div>
-          <div className="socialMediaText">
+          <div className="socialMediaText maxAlter">
             We’re <span className="colorText">Social!</span>
             <br />
             LIKE. FOLLOW. SHARE
@@ -353,7 +353,7 @@ const Home = () => {
           </div>
           <div className="ToBlogsButton">READ ALL BLOGS</div>
         </div>
-      </section> */}
+      </section>
       <section className="referFriendsSection myContainerParent">
         <div className="referFriends myContainer">
           <div className="referFriendsimg">
