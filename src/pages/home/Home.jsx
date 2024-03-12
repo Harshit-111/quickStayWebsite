@@ -25,7 +25,7 @@ import Properties from "../../components/properties/Properties";
 const Home = () => {
   return (
     <div>
-      {/* <section className="homeHeader">
+      {/*<section className="homeHeader">
         <Header />
         <BelowHeader />
       </section>
@@ -78,7 +78,7 @@ const Home = () => {
             </ul>
           </div>
         </div>
-      </section>
+  </section>*/}
       <section className="QuickStayAdvantages myContainerParent">
         <div className="advanatages d-flex myContainer">
           <div className="advantagestext">
@@ -149,19 +149,23 @@ const Home = () => {
         </div>
       </section>
       <section className="quickStayPromises myContainerParent">
-        <div className="quickstaypromise d-flex myContainer">
+        <div className="quickstaypromise d-flex   myContainer">
           <div className="promiseimages">
             <img
               src="./images/promise1.png"
               alt=" "
-              style={{ marginRight: "30px" }}
+              style={{ maxHeight: "275px", marginRight: "30px" }}
             ></img>
             <img
               src="./images/promise2.png"
               alt=" "
-              style={{ marginRight: "30px" }}
+              style={{ maxHeight: "275px", marginRight: "30px" }}
             ></img>
-            <img src="./images/promise3.png" alt=" "></img>
+            <img
+              src="./images/promise3.png"
+              alt=" "
+              style={{ maxHeight: "275px" }}
+            ></img>
           </div>
           <div className="promisetext">
             <div className="promiseheading">
@@ -251,7 +255,7 @@ const Home = () => {
             </IconContext.Provider>
           </div>
         </div>
-      </section>*/}
+      </section>
       <section className="findStaySection myContainerParent">
         <div className="findstay  myContainer">
           <div className="findstayimage">

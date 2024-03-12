@@ -67,7 +67,7 @@
   font-weight: bold;
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .advantagesphotos {
@@ -132,26 +132,27 @@
 /* SECTION QUICKSTAY PROMISE */
 .quickstaypromise {
   margin-top: 20vh;
-  margin-left: 200px;
+  margin-left: 200px; 
 }
 .promiseimages {
-  position: relative;
+  display: flex ;
 }
 .promisetext {
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
+  margin-left: 3rem;
 }
 .promisepara {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .promisemark {
-  margin-top: 20px;
+  margin-top: 10px;
   font-weight: bold;
 }
 
 /* SECTION IMPORTANCE OF QUICKSTAY */
 .importanceofquickstay {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -199,3 +200,155 @@
 .findstayheading {
   font-weight: 900;
 }
+
+/*Responsive*/
+@media only screen and (min-width: 1200px){
+   .promiseheading{
+    font-size: 2rem;
+    font-weight: bolder;
+   }
+   .promisepara{
+    word-wrap: break-word;
+    font-size: 1rem;
+    font-weight:500;
+
+   }
+   .promisemark>div{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bolder;
+   }
+  .importanceheading{
+    font-size: 2 rem;
+    font-weight: bolder;
+  }
+  .importancepara > div {
+    word-wrap: break-word;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .importancemark>div {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .promiseheading{
+    font-size: 1.2rem;
+    font-weight: bolder;
+   }
+   .promisepara{
+    word-wrap: break-word;
+    
+    font-size: 1rem;
+    font-weight:500;
+   }
+   .promisemark>div{
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: bolder;
+   }
+  .importanceheading{
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  .importancepara > div {
+    word-wrap: break-word;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .importancemark>div {
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .promiseheading{
+    font-size: 1.2rem;
+    font-weight: bolder;
+   }
+   .promisepara{
+    word-wrap: break-word;
+    
+    font-size: 1rem;
+    font-weight:500;
+   }
+   .promisemark>div{
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: bolder;
+   }
+  .importanceheading{
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  .importancepara > div {
+    word-wrap: break-word;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .importancemark>div {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+}
+@media only screen and (max-width: 600px){
+  .advanatages{
+    flex-direction: column;
+  }
+  .advanatagespoints2{
+    margin-bottom: 2rem;
+  }
+  .advantagesphotos{
+   margin-bottom: -100px;
+   width: 100%;
+  }
+  .quickStayProperties {
+    display:none;
+  }
+  .promiseheading{
+    font-size: 1.2rem;
+    font-weight: bolder;
+   }
+   .promisepara{
+   font-size: 1rem;
+    font-weight:500;
+   }
+   .promisemark>div{
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: bolder;
+   }
+   .quickstaypromise{
+    flex-direction: column-reverse;
+    gap: 1rem;
+   }
+  .importanceheading{
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  .importancepara > div {
+    word-wrap: break-word;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .importancemark>div {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  .importanceofquickstay{
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
