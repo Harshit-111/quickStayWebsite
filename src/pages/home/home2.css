@@ -12,6 +12,8 @@ ul {
 .myContainerParent {
   padding-top: 4%;
   padding-bottom: 4%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .homeHeader {
@@ -19,6 +21,7 @@ ul {
   padding-bottom: 2lvh;
   background-image: linear-gradient(to top right, #2d0604, #a00600),
     linear-gradient(to bottom right, #2d0604, #a00600);
+  width: 100vw;
 }
 /* to APP Section */
 .toApp {

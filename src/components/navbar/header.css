@@ -1,17 +1,13 @@
-
-
-
-.headerlink{
-    display: flex;
-    align-items: center;
-    gap: -50px;
-    
+.headerlink {
+  display: flex;
+  align-items: center;
+  gap: -50px;
 }
 .navbar-nav {
-    color: white;
-  }
-
- /*Responsive*/
-@media only screen and (min-width: 1200px){
-    
+  color: white;
 }
+.Navlogo {
+  font-size: 2rem;
+}
+
+/*Responsive*/

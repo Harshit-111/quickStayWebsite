@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../../components/footer/Footer";
 import AboveFooter from "../../components/footer/aboveFooter/AboveFooter";
 import Header from "../../components/navbar/Header";
@@ -23,9 +23,13 @@ import { TfiYoutube } from "react-icons/tfi";
 import Properties from "../../components/properties/Properties";
 
 const Home = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+  window.addEventListener("resize", () => {
+    setWidth(window.innerWidth);
+  });
   return (
     <div>
-      {/*<section className="homeHeader">
+      <section className="homeHeader">
         <Header />
         <BelowHeader />
       </section>
@@ -34,7 +38,7 @@ const Home = () => {
           <div className="Region">
             <div className="regionphotos">
               <img className="Gurugram" src="./gurugram.png" alt=""></img>
-              <span1>Gurugram</span1>
+              <span>Gurugram</span>
             </div>
             <div className="regionphotos">
               <img className="Delhi" src="./delhi.png" alt=" "></img>
@@ -56,7 +60,7 @@ const Home = () => {
               <br></br> Delhi-NCR, curated for comfort and community at
               QuickStay.
             </p>
-            <ul className="ColivingProperties mt-5">
+            <ul className="ColivingProperties">
               <li>
                 Full Furnished <br></br>Homes
               </li>
@@ -78,7 +82,7 @@ const Home = () => {
             </ul>
           </div>
         </div>
-  </section>*/}
+      </section>
       <section className="QuickStayAdvantages myContainerParent">
         <div className="advanatages d-flex myContainer">
           <div className="advantagestext">
@@ -112,7 +116,7 @@ const Home = () => {
             </div>
           </div>
           <div className="advantagesphotos">
-            <img src="./Quickstay1.png" alt=" "></img>
+            <img src="./images/advantages.png" alt=" "></img>
           </div>
         </div>
       </section>
@@ -151,21 +155,9 @@ const Home = () => {
       <section className="quickStayPromises myContainerParent">
         <div className="quickstaypromise d-flex   myContainer">
           <div className="promiseimages">
-            <img
-              src="./images/promise1.png"
-              alt=" "
-              style={{ maxHeight: "275px", marginRight: "30px" }}
-            ></img>
-            <img
-              src="./images/promise2.png"
-              alt=" "
-              style={{ maxHeight: "275px", marginRight: "30px" }}
-            ></img>
-            <img
-              src="./images/promise3.png"
-              alt=" "
-              style={{ maxHeight: "275px" }}
-            ></img>
+            <img src="./images/promise1.png" alt=" "></img>
+            <img src="./images/promise2.png" alt=" "></img>
+            <img src="./images/promise3.png" alt=" "></img>
           </div>
           <div className="promisetext">
             <div className="promiseheading">
@@ -209,7 +201,7 @@ const Home = () => {
           </div>
 
           <div className="importanceicon">
-            <IconContext.Provider value={{ size: "3em" }}>
+            <IconContext.Provider value={{ size: `3em` }}>
               <ul className="importanceiconlist">
                 <li>
                   <GiSofa style={{ color: "#A00500" }} />
